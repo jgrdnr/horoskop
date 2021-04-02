@@ -8,6 +8,8 @@
   "dependencies": {
     "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
+    "horoscope": "^2.0.1",
+    "prompt-promise": "^1.0.3",
     "typescript": "^4.2.3"
   },
   "scripts": {

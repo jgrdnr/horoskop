@@ -99,6 +99,13 @@ has-flag@^4.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
+horoscope@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/horoscope/-/horoscope-2.0.1.tgz#34c544d953f28f5bf3863c6d9abc7dccfd81cd8c"
+  integrity sha1-NMVE2VPyj1vzhjxtmrx9zP2BzYw=
+  dependencies:
+    lodash "^4.15.0"
+
 jest-diff@^26.0.0:
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-26.6.2.tgz#1aa7468b52c3a68d7d5c5fdcdfcd5e49bd164394"
@@ -114,6 +121,28 @@ jest-get-type@^26.3.0:
   resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-26.3.0.tgz#e97dc3c3f53c2b406ca7afaed4493b1d099199e0"
   integrity sha512-TpfaviN1R2pQWkIihlfEanwOXK0zcxrKEE4MlU6Tn7keoXdN6/3gK/xl0yEh8DOunn5pOVGKf8hB4R9gVh04ig==
 
+keypress@~0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/keypress/-/keypress-0.2.1.tgz#1e80454250018dbad4c3fe94497d6e67b6269c77"
+  integrity sha1-HoBFQlABjbrUw/6USX1uZ7YmnHc=
+
+lodash@^4.15.0:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+native-or-another@~2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/native-or-another/-/native-or-another-2.0.0.tgz#17a567f92beea9cd71acff96a7681a735eca3bff"
+  integrity sha1-F6Vn+Svuqc1xrP+Wp2gac17KO/8=
+  dependencies:
+    native-or-bluebird "^1.1.2"
+
+native-or-bluebird@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/native-or-bluebird/-/native-or-bluebird-1.2.0.tgz#39c47bfd7825d1fb9ffad32210ae25daadf101c9"
+  integrity sha1-OcR7/Xgl0fuf+tMiEK4l2q3xAck=
+
 pretty-format@^26.0.0, pretty-format@^26.6.2:
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-26.6.2.tgz#e35c2705f14cb7fe2fe94fa078345b444120fc93"
@@ -123,6 +152,14 @@ pretty-format@^26.0.0, pretty-format@^26.6.2:
     ansi-regex "^5.0.0"
     ansi-styles "^4.0.0"
     react-is "^17.0.1"
+
+prompt-promise@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/prompt-promise/-/prompt-promise-1.0.3.tgz#78ce4fcb9a14a108c49174f2d808c440d1bde265"
+  integrity sha1-eM5Py5oUoQjEkXTy2AjEQNG94mU=
+  dependencies:
+    keypress "~0.2.1"
+    native-or-another "~2.0.0"
 
 react-is@^17.0.1:
   version "17.0.2"
