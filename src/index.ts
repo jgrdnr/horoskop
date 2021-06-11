@@ -3,7 +3,7 @@
 import * as prompt from "prompt-promise";
 import { getSign } from "horoscope";
 import { Origin, Horoscope } from "circular-natal-horoscope-js";
-import { cityMap } from "city-lat-long-map"
+import { cityMap } from "city-lat-long-map";
 
 // const promiseOfALocation: Promise<string> = prompt("Location? ");
 
